@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 /**
                  * 启动sdk首页  必须传入以下参数
+                 *
                  * @param context  对象
                  * @param baseUrl  基础请求url：必须以/结尾，sdk固定拼接app-api/…，
                     例如传入https://ts.keytop.cn/fc_test/
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                  * @param lotId  车场id
                  * @param carPlateNum  车牌号
                  */
-                KTMainActivity.launch(MainActivity.this, "https://ts.keytop.cn/fc_test/", "2513", "闽DL7B56");
+                KTMainActivity.launch(MainActivity.this, "https://ts.keytop.cn/fc_test/", "2513", "闽D8013Q");
             }
         });
     }
