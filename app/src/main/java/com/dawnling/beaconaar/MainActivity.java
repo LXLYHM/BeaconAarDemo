@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                  * @param lotId  车场id
                  * @param carPlateNum  车牌号
                  */
-                KTMainActivity.launch(MainActivity.this, "https://ts.keytop.cn/fc_test/", "2513", "闽D8013Q");
+                KTMainActivity.launch(MainActivity.this, "https://ts.keytop.cn/fc_test/", "2513", "闽DD28893");
             }
         });
     }
